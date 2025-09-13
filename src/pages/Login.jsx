@@ -36,7 +36,7 @@ const Login = ({ studentId, password, onChange, onLogin }) => {
 
         {/* Login Button */}
         <button
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/stacc-website')}
           className="w-full bg-white text-black font-bold py-3 rounded hover:bg-gray-200 transition"
         >
           LOGIN
@@ -47,7 +47,7 @@ const Login = ({ studentId, password, onChange, onLogin }) => {
           Don’t have an account?{' '}
           <span
             className="text-white cursor-pointer hover:underline"
-            onClick={() => navigate('/register')}
+            onClick={() => navigate('/stacc-website/register')}
           >
             Register
           </span>

@@ -55,7 +55,7 @@ const OtpPage = () => {
           </button>
 
           <p
-            onClick={() => navigate('/')}
+            onClick={() => navigate('/stacc-website')}
             className="text-center text-sm mt-3 text-blue-400 hover:underline cursor-pointer"
           >
             Back to Login

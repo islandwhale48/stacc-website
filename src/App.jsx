@@ -11,10 +11,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/register" element={<Register/>}/> 
-        <Route path="/" element={<Login/>}/>
-        <Route path="/otp" element={<Otp/>}/>
-       
+        <Route path="/stacc-website/register" element={<Register/>}/> 
+        <Route path="/stacc-website/login" element={<Login/>}/>
+        <Route path="/stacc-website/otp" element={<Otp/>}/>
+        <Route path="/stacc-website" element={<LandingPage/>}/>
         </Routes>
     </Router>
   )
