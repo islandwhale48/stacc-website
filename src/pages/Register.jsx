@@ -104,7 +104,7 @@ const validatePassword = (password) => {
           </button>
 
           <p
-            onClick={() => navigate("/stacc-website/login")}
+            onClick={() => navigate("/")}
             className="text-center text-blue-400 hover:underline cursor-pointer"
           >
             Back to Login
